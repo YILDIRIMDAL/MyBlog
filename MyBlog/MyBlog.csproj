@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MyBlogLayoutController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -137,6 +138,23 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="web\contact.html" />
+    <Content Include="web\css\style.css" />
+    <Content Include="web\images\img10.jpg" />
+    <Content Include="web\images\img11.jpg" />
+    <Content Include="web\images\img15.jpg" />
+    <Content Include="web\images\img2.jpg" />
+    <Content Include="web\images\img20.jpg" />
+    <Content Include="web\images\logo.png" />
+    <Content Include="web\images\pointer.png" />
+    <Content Include="web\images\pre.png" />
+    <Content Include="web\images\search.png" />
+    <Content Include="web\images\social-icons.png" />
+    <Content Include="web\images\social-icons1.png" />
+    <Content Include="web\images\yildirimdallogo.jpg" />
+    <Content Include="web\index.html" />
+    <Content Include="web\single.html" />
+    <Content Include="web\w3layouts-License.txt" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -163,6 +181,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_MyBlogLayout.cshtml" />
+    <Content Include="Views\MyBlogLayout\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
