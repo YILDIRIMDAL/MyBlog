@@ -120,8 +120,12 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HakkimdaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MyBlogLayoutController.cs" />
+    <Compile Include="Controllers\NeIzlesemController.cs" />
+    <Compile Include="Controllers\NeOkusamController.cs" />
+    <Compile Include="Controllers\SiirZamaniController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -182,6 +186,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_MyBlogLayout.cshtml" />
     <Content Include="Views\MyBlogLayout\Index.cshtml" />
+    <Content Include="Views\NeOkusam\Index.cshtml" />
+    <Content Include="Views\NeIzlesem\Index.cshtml" />
+    <Content Include="Views\SiirZamani\Index.cshtml" />
+    <Content Include="Views\Hakkimda\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
